@@ -25,6 +25,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
 }
 
 header .logo img {
@@ -32,6 +38,17 @@ header .logo img {
     animation: fadeIn 1s ease-in-out;
 }
 
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between logos */
+}
+
+.header-logo {
+    width: 50px; /* Adjust size as needed */
+}
+
+/* Navigation */
 nav ul {
     list-style: none;
     display: flex;
