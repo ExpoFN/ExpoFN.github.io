@@ -1,4 +1,4 @@
-/* Reset and Basic Stylesss */
+/* Reset and Basic Styles */
 * {
     margin: 0;
     padding: 0;
@@ -46,6 +46,7 @@ header .logo img {
 
 .header-logo {
     width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Navigation */
